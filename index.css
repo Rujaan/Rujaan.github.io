@@ -1,0 +1,71 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2 {
+    margin: 0;
+    z-index: 2;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background: url(https://66.media.tumblr.com/937e995ca022fe2791994b5282f28457/tumblr_oiwytkVMM81tf8vylo1_1280.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+h1 {
+    font-size: 70px;
+    transition: font-size 0.8s;
+
+}
+
+h1:hover {
+    font-size: 90px;
+}
+
+h2 {
+    font-weight: 18px;
+    transition: all 1.2s;
+}
+
+.social-network {
+    z-index: 2;
+}
+
+.social-network i {
+    font-size: 22px;
+    margin-right: 8px;
+    color: darkslateblue;
+    transition: all 0.2s;
+}
+
+.social-network i:hover {
+    font-size: 24px;
+    color: black
+}
+
+.fade1 {
+    opacity: 0;
+}
+
+#particles-js {
+    position: absolute;
+    height: 100%;
+
+}
